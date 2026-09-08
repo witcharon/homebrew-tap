@@ -8,7 +8,7 @@ cask "lidlezz" do
   desc "Keep Claude Code running with the MacBook lid closed, without cooking the Mac"
   homepage "https://lidlezz.app"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "Lidlezz.app"
