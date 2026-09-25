@@ -1,9 +1,9 @@
 # Homebrew cask. release.sh fills VERSION/SHA256/URL and writes homebrew/lidlezz.rb; copy it into your tap.
 cask "lidlezz" do
-  version "0.2.1"
-  sha256 "724e61ca8747eaed4af1a44cb099661fdf02f21946ed0ab10d0c7761d517b388"
+  version "0.2.2"
+  sha256 "226f928bdc70ef677f5eb41182d963aeaea8053941e16a45fa98ba9751c62bc5"
 
-  url "https://github.com/witcharon/lidlezz-releases/releases/download/v0.2.1/Lidlezz-0.2.1.dmg"
+  url "https://github.com/witcharon/lidlezz-releases/releases/download/v0.2.2/Lidlezz-0.2.2.dmg"
   name "Lidlezz"
   desc "Keep Claude Code running with the MacBook lid closed, without cooking the Mac"
   homepage "https://lidlezz.app"
